@@ -1,0 +1,92 @@
+
+# =========================
+# IDE and editors
+# =========================
+.idea/
+.vscode/
+.zed/
+*.swp
+*.swo
+*~
+
+# =========================
+# Operating system
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs and temporary files
+# =========================
+*.log
+*.tmp
+*.bak
+
+# =========================
+# C / C++
+# =========================
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.out
+
+# =========================
+# Go
+# =========================
+*.test
+*.prof
+coverage.out
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+dist/
+.npm/
+
+# =========================
+# PostgreSQL dumps and backups
+# =========================
+*.dump
+*.backup
+*.sql.gz
+
+# =========================
+# OS / editor generated files
+# =========================
+*.orig
+*.rej
