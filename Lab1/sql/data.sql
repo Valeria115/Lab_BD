@@ -1,9 +1,9 @@
 -- Покупатели
 INSERT INTO customers (name, email, phone) VALUES
-('Анна Смирнова', '[anna@example.com](mailto:anna@example.com)', '+79991112233'),
-('Иван Петров', '[ivan@example.com](mailto:ivan@example.com)', '+79992223344'),
-('Мария Кузнецова', '[maria@example.com](mailto:maria@example.com)', NULL),
-('Алексей Соколов', '[alex@example.com](mailto:alex@example.com)', '+79993334455');
+('Анна Смирнова', 'anna@example.com', '+79991112233'),
+('Иван Петров', 'ivan@example.com', '+79992223344'),
+('Мария Кузнецова', 'maria@example.com', NULL),
+('Алексей Соколов', 'alex@example.com', '+79993334455');
 
 -- Адреса покупателей
 INSERT INTO addresses (customer_id, city, street, house, apartment) VALUES
