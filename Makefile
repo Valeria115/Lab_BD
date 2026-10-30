@@ -25,10 +25,10 @@ test:
 lab2: up
 
 lab2-queries:
-	$(PSQL) -v ON_ERROR_STOP=1 < labs/lab2/queries.sql
+	$(PSQL) -v ON_ERROR_STOP=1 < Lab2/sql/queries.sql
 
 lab2-dml:
-	$(PSQL) -v ON_ERROR_STOP=1 < labs/lab2/dml.sql
+	$(PSQL) -v ON_ERROR_STOP=1 < Lab2/sql/dml.sql
 
 migrate:
 	docker compose exec -T db psql -U postgres -d db_labs -v ON_ERROR_STOP=1 < Lab1/sql/migration.sql
